@@ -2,7 +2,7 @@ package com.developerstalk.array;
 
 import java.util.*;
 import java.util.stream.Collectors;
-class Solution {
+class TopKFrequentWords {
     public List<String> topKFrequent(String[] words, int k) {
         HashMap<String , Integer> map = new HashMap<>();
         for(String word : words){
